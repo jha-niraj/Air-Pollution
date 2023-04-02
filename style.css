@@ -1,0 +1,122 @@
+.navbar-brand {
+    font-size: 30px;
+    font-weight: 550;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+.quality-index {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    /* margin-left: 30px; */
+}
+.cities {
+    display: flex;
+    justify-content: space-around;
+}
+.rank {
+    margin: 3px;
+}
+.btn {
+    position: relative;
+    left: 40px;
+}
+
+
+/* Front-Page */
+.front-page {
+    height: 90vh;
+    background-image: url("/Image/david-marcu-78A265wPiO4-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+    border-radius: 10px;
+}
+.quotes {
+    display: flex;
+    justify-content: space-around;
+}
+.card {
+    margin-top: 260px;
+}
+
+/* Features part of the Website. */
+#features {
+    background-color: rgb(231, 118, 66);
+    margin: 0px;
+    border-radius: 10px;
+}
+.easy > img {
+    margin-top: 20px;
+    border-radius: 40%;
+}
+
+/* Carousel part of the Website. */
+.slide {
+
+    margin: 80px;
+    border-radius: 50px;
+}
+
+
+/* Accordion */
+.faqs {
+    border-radius: 30px;
+    margin: 30px;
+    background-color:rgb(104, 170, 175);
+}
+.faqs-heading {
+    display: flex;
+    flex-direction: column;
+    color: rgb(210, 219, 227);
+}
+.faqs-heading > .AQI > span {
+    color: rgb(89, 53, 23);
+}
+.heading {
+    text-align: center;
+}
+.fact {
+    color: rgb(40, 13, 90);
+}
+.accordion {
+    margin: 70px;
+    /* margin-bottom: 10px; */
+}
+
+/* Footer Section code */
+.Footer-section {
+    background-color: rgb(185, 208, 208);
+    margin: 10px;
+}
+.media-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.media {
+    padding: 10px;
+}
+.media:hover {
+    color: rgb(33, 100, 105);
+}
+.channels {
+    text-decoration: active;
+    color: none;
+}
+.copyright {
+    text-align: center;
+    color: white;
+}
+.name {
+    color: black;
+}
+.heart {
+    color: red;
+}
+.arrow {
+    display: flex;
+    justify-content: flex-end;
+}
+.top {
+    color: red;
+}
